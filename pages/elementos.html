@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="es-GT">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Introducción a Desarrollo Web</title>
+        <link rel="icon"  type="image/png" href="../images/wave.png">
+    </head>
+    <body>
+        <style>
+            .page{
+                display: table;
+                width: 100%;               
+            }
+            .container{
+                padding-left: 5em;
+                padding-right: 8em;
+            }
+            .subcontainer {
+                padding: 10px;
+                border: solid grey;
+                border-radius: 1px;
+                float: left;
+                width: 75.5%;
+                margin-top: 10px;
+                
+            }
+            aside{
+                padding: 10px;
+                border: solid grey;
+                border-radius: 1px;
+                float: right;
+                width: 20%;
+                margin-top: -9px;
+                height:100vh;
+            }
+            p{
+                text-align: justify;
+            }
+            .imglogo{
+                margin: 1em;
+                height: 50px;
+                width: 50px;
+            }
+            h1,h2{
+                text-align: center;
+            }
+            li{
+                float: left;
+                list-style: none;
+
+            }
+            a:link, a:visited, a:active {
+                text-decoration: none;
+                color: black;
+                padding: 30px;
+            }
+            nav{
+                height: 60px;
+                border: solid grey;
+                margin-bottom: 7px;
+            }
+            article{
+                border: solid grey;
+                padding-right: 20px;
+                padding-left: 20px;
+                margin-bottom: 20px;
+            }
+            .standard-table{
+                border: solid gray;
+            }
+            th{
+                background-color: lightcyan;
+            }
+            td{
+                background-color: gainsboro;
+            }
+            thead{
+                border: solid gray;
+            }
+            .container{
+                margin-top: 10px;
+            }
+
+        </style>
+
+        <header>
+            <div class="header">
+                <img src="../images/wave.png" alt="logo" class="imglogo">
+                <h1>Desarrollo Web</h1>
+                <h2>Introducción a HTML 5</h2>
+                <br>
+                <nav>
+                    <ul>
+                        <li><a href="../index.html">Inicio</a></li>
+                        <li><a href="elementos.html">Elementos</a></li>
+                        <li><a href="atributos.html">Atributos</a></li>
+
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <div class="page">
+                <div class="container">
+                    
+                    <table class="standard-table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Elemento</th>
+                                <th scope="col">Descripción</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                         <tr>
+                          <td><p title="El&nbsp;elemento HTML <head>&nbsp;provee información general (metadatos) acerca del documento, incluyendo su título y enlaces a scripts y hojas de estilos."><code>&lt;head&gt;</code></p></td>
+                          <td>Representa una colección de metadatos acerca del documento, incluyendo enlaces a, o definiciones de, scripts y hojas de estilo.</td>
+                         </tr>
+                         <tr>
+                          <td><p title="La documentación acerca de este tema no ha sido escrita todavía . ¡Por favor  considera contribuir !"><code>&lt;title&gt;</code></p></td>
+                          <td>Define el título del documento, el cual se muestra en la barra de título del navegador o en las pestañas de página. Solamente puede contener texto y cualquier otra etiqueta contenida no será interpretada.</td>
+                         </tr>
+                         <tr>
+                          <td><p title="El elemento HTML <base> especifica la dirección URL base que se utilizará para todas las direcciones URL relativas contenidas dentro de un documento.  Sólo puede haber un elemento <base> en un documento."><code>&lt;base&gt;</code></p></td>
+                          <td>Define la URL base para las URLs relativas en la página.</td>
+                         </tr>
+                         <tr>
+                          <td><p title="El&nbsp;elemento HTML <link>&nbsp;especifica la&nbsp;relación&nbsp;entre el documento actual y un recurso externo. Los usos posibles de este elemento incluyen la definición de un marco relacional para navegación. Este elemento es más frecuentemente usado para enlazar hojas de estilos."><code>&lt;link&gt;</code></p></td>
+                          <td>Usada para enlazar JavaScript y CSS externos con el documento HTML actual.</td>
+                         </tr>
+                         <tr>
+                          <td><p title="meta de &quot;metainformation&quot; - metainformación. Sirve para aportar información sobre el documento.."><code>&lt;meta&gt;</code></p></td>
+                          <td>Define los metadatos que no pueden ser definidos usando otro elemento HTML.</td>
+                         </tr>
+                         <tr>
+                          <td><p title="style - estilo. Es el elemento encargado de indicar la información de estilo."><code>&lt;style&gt;</code></p></td>
+                          <td>Etiqueta de estilo usada para escribir CSS en línea.</td>
+                         </tr>
+                         <tr>
+                            <td><p  title="El elemento p (párrafo) es el apropiado para distribuir el texto en párrafos."><code>&lt;p&gt;</code></p></td>
+                            <td>Define una parte que debe mostrarse como un párrafo.</td>
+                           </tr>
+                           <tr>
+                            <td><p  title="descripción de uno o dos párrafosEl elemento HTML <hr> representa un cambio de tema entre párrafos (por ejemplo, un cambio de escena en una historia, un cambio de tema en una sección). En versiones previas de HTML representaba una línea horizontal. Aún puede ser representada como una línea horizontal en los navegadores visuales, pero ahora es definida en términos semánticos y no tanto en términos representativos, por tanto para dibujar una línea horizontal se debería usar el CSS apropiado."><code>&lt;hr&gt;</code></p></td>
+                            <td>Representa un quiebre temático entre párrafos de una sección o articulo o cualquier contenido.</td>
+                           </tr>
+                           <tr>
+                            <td><p  title="El Elemento HTML <pre> (o Texto HTML Preformateado) representa texto preformateado. El texto en este elemento típicamente se muestra en una fuente fija, no proporcional, exactamente como es mostrado en el archivo. Los espacios dentro de este elemento también son mostrados como están escritos."><code>&lt;pre&gt;</code></p></td>
+                            <td>Indica que su contenido esta preformateado y que este formato debe ser preservado.</td>
+                           </tr>
+                           <tr>
+                            <td><p  title="blockquote -cita en bloque . Crea citas en bloque, marca las citas a otros autores o documentos."><code>&lt;blockquote&gt;</code></p></td>
+                            <td>Representa un contenido citado desde otra fuente.</td>
+                           </tr>
+                           <tr>
+                            <td><p  title="La documentación acerca de este tema no ha sido escrita todavía . ¡Por favor  considera contribuir !"><code>&lt;ol&gt;</code></p></td>
+                            <td>Define una lista ordenada de artículos.</td>
+                           </tr>
+                           <tr>
+                            <td><p  title="ul de &quot;unordered list&quot; -lista no ordenada . crea una lista no ordenada."><code>&lt;ul&gt;</code></p></td>
+                            <td>Define una lista de artículos sin orden.</td>
+                           </tr>
+                           <tr>
+                            <td><p  title="La documentación acerca de este tema no ha sido escrita todavía . ¡Por favor  considera contribuir !"><code>&lt;li&gt;</code></p></td>
+                            <td>Define un artículo de una lista enumerada.</td>
+                           </tr>
+                           <tr>
+                            <td><p title="El elemento HTML <dl>&nbsp; representa una lista descriptiva. El elemento encierra una lista de grupos de términos (especificados con el uso del elemento <dt>) y de descripciones (proveídas con elementos <dd>). Algunos usos comunes para este elemento son implementar un glosario o para desplegar metadatos (lista de pares llave-valor)."><code>&lt;dl&gt;</code></p></td>
+                            <td>Define una lista de definiciones, es decir, una lista de términos y sus definiciones asociadas.</td>
+                           </tr>
+                           <tr>
+                            <td><p  title="El&nbsp; elemento HTML <dt> especifica un término en una descripción o lista de definiciones, y como tal debe utilizarse dentro de un elemento <dl>"><code>&lt;dt&gt;</code></p></td>
+                            <td>Representa un término definido por el siguiente&nbsp;<code>&lt;dd&gt;</code>.</td>
+                           </tr>
+                           <tr>
+                            <td><p  title="El elemento HTML <dd> provee detalles acerca de o la definición de un término precedente (<dt>) en una lista de descripciones (<dl>)."><code>&lt;dd&gt;</code></p></td>
+                            <td>Representa la definición de los términos listados antes que él.</td>
+                           </tr>
+                           <tr>
+                            <td><p  title="El  elemento HTML <figure> representa contenido independiente, a menudo con un título. Si bien se relaciona con el flujo principal, su posición es independiente de éste. Por lo general, se trata de una imagen, una ilustración, un diagrama, un fragmento de código, o un esquema al que se hace referencia en el texto principal, pero que se puede mover a otra página o a un apéndice sin que afecte al flujo principal."><code>&lt;figure&gt;</code></p> <p  style="height: 16px; vertical-align: middle; width: 16px;" title="This element has been added in HTML5"></p></td>
+                            <td>Representa una figura ilustrada como parte del documento.</td>
+                           </tr>
+                           <tr>
+                            <td><p  title="El elemento&nbsp;HTML <figcaption>&nbsp;&nbsp;representa un subtítulo o leyenda asociado&nbsp;al contenido del elemento padre&nbsp;<figure>, pudiendo ser colocado como primer o último hijo. Es importante destacar que el elemento&nbsp;<figcaption>&nbsp;es opcional."><code>&lt;figcaption&gt;</code></p> </td>
+                            <td>Representa la leyenda de una figura.</td>
+                           </tr>
+                           <tr>
+                            <td><p  title="div de &quot;division&quot; -división . Sirve para crear secciones o agrupar contenidos."><code>&lt;div&gt;</code></p></td>
+                            <td>Representa un contenedor genérico sin ningún significado especial.</td>
+                           </tr>
+                           <tr>
+                            <td><p title="El Elemento HTML Anchor <p> crea un enlace a otras páginas de internet, archivos o ubicaciones dentro de la misma página, direcciones de correo, o cualquier otra URL."><code>&lt;a&gt;</code></p></td>
+                            <td>Representa un&nbsp;<em>hiperenlace</em>, enlazando a otro recurso.</td>
+                           </tr>
+                           <tr>
+                            <td><p  title="El elemento HTML <em> es el apropiado para marcar con énfasis las partes importantes de un texto. El elemento <em> puede ser anidado, con cada nivel de anidamiento indicando un mayor grado de énfasis."><code>&lt;em&gt;</code></p></td>
+                            <td>Representa un texto&nbsp;<em>enfatizado</em>, como un acento de intensidad.</td>
+                           </tr>
+                           <tr>
+                            <td><p  title="La documentación acerca de este tema no ha sido escrita todavía . ¡Por favor  considera contribuir !"><code>&lt;strong&gt;</code></p></td>
+                            <td>Representa un texto especialmente&nbsp;<em>importante</em>.</td>
+                           </tr>
+                           <tr>
+                            <td><p  title="El elemento HTML <small> hace el tamaño del texto&nbsp;una talla más pequeña (por ejemplo, de largo a mediano, o de pequeño a extra pequeño) que el tamaño mínimo de fuente del navegador. En HTML5, este&nbsp;elemento es reutilizado para representar comentarios laterales y letra pequeña, incluyendo derechos de autor y texto legal, independientemente de su estilo de presentación."><code>&lt;small&gt;</code></p></td>
+                            <td>Representa un&nbsp;<em>comentario aparte</em>, es decir, textos como un descargo de responsabilidad o una nota de derechos de autoría, que no son esenciales para la comprensión del documento.<code> </code></td>
+                           </tr>
+                           <tr>
+                            <td><p  title="La documentación acerca de este tema no ha sido escrita todavía . ¡Por favor  considera contribuir !"><code>&lt;s&gt;</code></p></td>
+                            <td>Representa contenido que <em>ya</em>&nbsp;<em>no es exacto o relevante</em>.</td>
+                           </tr>
+                           <tr>
+                            <td><p  title="cite -cita . Marca una referencia a una fuente, o el autor de un texto citado."><code>&lt;cite&gt;</code></p></td>
+                            <td>Representa el&nbsp;<em>título de una obra</em>.</td>
+                           </tr>
+                           <tr>
+                            <td><p  title="El elemento q (cita) crea citas en linea, marca las citas a otros autores o documentos."><code>&lt;q&gt;</code></p></td>
+                            <td>Representa una&nbsp;<em>cita textual</em> inline.</td>
+                           </tr>
+                           <tr>
+                            <td><p  title="La documentación acerca de este tema no ha sido escrita todavía . ¡Por favor  considera contribuir !"><code>&lt;dfn&gt;</code></p></td>
+                            <td>Representa un término cuya&nbsp;<em>definición</em> &nbsp;está contenida en su contenido ancestro más próximo.</td>
+                           </tr>
+                           <tr>
+                            <td><p  title="El elemento HTML <abbr> (o Elemento de Abreviación HTML) representa una abreviación o acrónimo; el atributo opcional title puede ampliar o describir la abreviatura. Si está presente, el atributo title debe contener la descripción completa y nada más."><code>&lt;abbr&gt;</code></p></td>
+                            <td>Representa una&nbsp;<em>abreviación </em>o un&nbsp;<em>acrónimo</em> ; la expansión de la abreviatura puede ser representada por el atributo <code>title</code>.</td>
+                           </tr>
+                           <tr>
+                            <td><p  title="El Elemento HTML <data> vincula un contenido dado con una traducción legible por una máquina. Si el contenido está relacionado con time- o date-, debe usarse el elemento <time>."><code>&lt;data&gt;</code></p> </td>
+                            <td>Asocia un <em>equivalente legible por máquina&nbsp;</em>a sus contenidos. (Este elemento está sólamente en la versión de la WHATWG del estandar HTML, y no en la versión de la W3C de HTML5).</td>
+                           </tr>
+                           <tr>
+                            <td><p title="El elemento HTML <time> representa un periodo específico en el tiempo. Puede incluir el atributo datetime para convertir las fechas en un formato interno legible por un ordenador, permitiendo mejores resultados en los motores de búsqueda o características personalizadas como recordatorios."><code>&lt;time&gt;</code></p> </td>
+                            <td>Representa un valor de&nbsp;<em>fecha&nbsp;</em>y&nbsp;<em>hora</em>; el equivalente legible por máquina puede ser representado en el atributo&nbsp;<span style="font-family: courier new,andale mono,monospace; line-height: normal;">datetime</span>.</td>
+                           </tr>
+                           <tr>
+                            <td><p title="La documentación acerca de este tema no ha sido escrita todavía . ¡Por favor  considera contribuir !"><code>&lt;code&gt;</code></p></td>
+                            <td>Representa un <em>código de&nbsp;</em><em>ordenador</em>.</td>
+                           </tr>
+                           <tr>
+                            <td><p title="Marca variables de programas y similares."><code>&lt;var&gt;</code></p></td>
+                            <td>Representa a una <em>variable, </em>es decir<em>, una expresión matemática o contexto de programación, un identificador que represente a una constante, un símbolo que identifica una cantidad física, un parámetro de una función o un marcador de posición en prosa</em><em>.</em></td>
+                           </tr>
+                           <tr>
+                            <td><p  title="El elemento HTML Sample (<samp>) se utiliza para incluir texto en línea que representa una muestra (o cita) de la salida de un programa de ordenador. El contenido de esta etiqueta es renderizado generalmente usando la tipografía monoespaciada por defecto del navegador."><code>&lt;samp&gt;</code></p></td>
+                            <td>Representa la <em>salida</em> de un programa o un ordenador.</td>
+                           </tr>
+                           <tr>
+                            <td><p  title="La documentación acerca de este tema no ha sido escrita todavía . ¡Por favor  considera contribuir !"><code>&lt;kbd&gt;</code></p></td>
+                            <td>Representa la&nbsp;<em>entrada de usuario</em>, por lo general desde un teclado, pero no necesariamente, este puede representar otras formas de entrada de usuario, como comandos de voz transcritos.</td>
+                           </tr>
+                           <tr>
+                            <td><p  title="El elemento HTML <sub> define un fragmento de texto que se debe mostrar, por razones tipográficas, más bajo, y generalmente más pequeño, que el tramo principal del texto, es decir, en subíndice."><code>&lt;sub&gt;</code></p>,<p  title="El elemento HTML <sup> define un fragmento de texto que se debe mostrar, por razones tipográficas, más alto, y generalmente más pequeño, que el tramo principal del texto, es decir, en superíndice."><code>&lt;sup&gt;</code></p></td>
+                            <td>Representan un <em>subíndice</em> y un&nbsp;<em>superíndice,&nbsp;</em>respectivamente.</td>
+                           </tr>
+                           <tr>
+                            <td><p  title="La documentación acerca de este tema no ha sido escrita todavía . ¡Por favor  considera contribuir !"><code>&lt;i&gt;</code></p></td>
+                            <td>Representa un texto en una voz o estado de ánimo&nbsp;<em>alterno</em>, o por lo menos de diferente calidad, como una designación taxonómica, un término técnico, una frase idiomática, un pensamiento o el nombre de un barco.</td>
+                           </tr>
+                           <tr>
+                            <td><p  title="b de bold=negrita."><code>&lt;b&gt;</code></p></td>
+                            <td>Representa un texto hacia el cual se llama la atención para&nbsp;<em>propósitos utilitarios.&nbsp;</em> No confiere ninguna importancia adicional y no implica una voz alterna.</td>
+                           </tr>
+                           <tr>
+                            <td><p  title="La documentación acerca de este tema no ha sido escrita todavía . ¡Por favor  considera contribuir !"><code>&lt;u&gt;</code></p></td>
+                            <td>Representa una anotación no textual&nbsp;<em>sin-articular</em>, como etiquetar un texto como mal escrito o etiquetar un nombre propio en texto en chino.</td>
+                           </tr>
+                           <tr>
+                            <td><p  title="El  Elemento HTML Mark <mark> representa un texto marcado o&nbsp;resaltado&nbsp;como referencia o anotación, debido a su relevancia o importancia en un contexto particular."><code>&lt;mark&gt;</code></p> </td>
+                            <td>Representa texto resaltado con propósitos de <em>referencia</em>, es decir por su relevancia en otro contexto.</td>
+                           </tr>
+                           <tr>
+                            <td><p  title=" Representa a una ruby anotacion. Ruby anotaciona por verse pronunciacion &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;de East Asian caracteres.&nbsp;HTML <ruby> element represents a ruby annotation. Ruby annotations are for showing pronunciation of East Asian characters."><code>&lt;ruby&gt;</code></p> </td>
+                            <td>
+                             <p>Representa contenidos a ser marcados con <em>anotaciones ruby</em>, recorridos cortos de texto presentados junto al texto. Estos son utilizados con regularidad en conjunto a lenguajes de Asia del Este, donde las anotaciones actúan como una guía para la pronunciación, como el&nbsp;<em>furigana</em> japonés.</p>
+                            </td>
+                           </tr>
+                           <tr>
+                            <td><p class="new"  rel="nofollow" title="La documentación acerca de este tema no ha sido escrita todavía . ¡Por favor  considera contribuir !"><code>&lt;rt&gt;</code></p> </td>
+                            <td>Representa el&nbsp;<em>texto de una anotación ruby</em>.</td>
+                           </tr>
+                           <tr>
+                            <td><p class="new"  rel="nofollow" title="La documentación acerca de este tema no ha sido escrita todavía . ¡Por favor  considera contribuir !"><code>&lt;rp&gt;</code></p> </td>
+                            <td>Representa los <em>paréntesis&nbsp;</em>alrededor de una anotación ruby, usada para mostrar la anotación de manera alterna por los navegadores que no soporten despliegue estandar para las anotaciones.</td>
+                           </tr>
+                           <tr>
+                            <td><p  title="El elemento HTML <bdi> (o elemento de aislamiento Bi-Direccional) aisla un trozo de texto para que pueda ser formateado con una dirección diferente al texto que hay fuera de él."><code>&lt;bdi&gt;</code></p> </td>
+                            <td>Representa un texto que debe ser <em>aislado</em> de sus alrededores para el formateado bidireccional del texto. &nbsp;Permite incrustar un fragmento de texto con una direccionalidad diferente o desconocida.</td>
+                           </tr>
+                           <tr>
+                            <td><p  title="bdo Bi-Directional Overriding=Anulación de bidireccionalidad."><code>&lt;bdo&gt;</code></p></td>
+                            <td>Representa la <em>direccionalidad</em> de sus descendientes con el fin de anular de forma explícita al algoritmo bidireccional Unicode.</td>
+                           </tr>
+                           <tr>
+                            <td><p  title="span - abarcar. Es un contenedor en línea. Sirve para aplicar estilo al texto o agrupar elementos en línea."><code>&lt;span&gt;</code></p></td>
+                            <td>Representa texto sin un significado específico. &nbsp;Este debe ser usado cuando <em>ningún otro</em> elemento semántico le confiere un significado adecuado, en cuyo caso, provendrá de atributos globales como&nbsp;<code>class</code>, <code>lang</code>, o <code>dir</code>.</td>
+                           </tr>
+                           <tr>
+                            <td><p  title="El elemento HTML&nbsp;line break&nbsp;<br>&nbsp;produce un salto de línea en el texto (retorno de carro). Es útil para escribir un poema o una dirección, donde la división de las líneas es significante."><code>&lt;br&gt;</code></p></td>
+                            <td>Representa un <em>salto de línea</em>.</td>
+                           </tr>
+                           <tr>
+                            <td><p  title="Por la misma razón el elemento&nbsp;<wbr>&nbsp;no introduce un guión en el salto de línea&nbsp;&nbsp;. &nbsp;Para hacer aparecer un guión solo al final de la línea , usar la entidad de caracter del&nbsp;&nbsp;guión de separación &nbsp;(&amp;﻿shy;) en su lugar."><code>&lt;wbr&gt;</code></p> </td>
+                            <td>Representa una <em>oportunidad de salto de línea, </em>es decir, un punto sugerido de envoltura donde el texto de múltiples líneas puede ser dividido para mejorar su legibilidad.</td>
+                           </tr>
+                        </tbody>
+                       </table>
+
+                </div>
+                
+            </div>
+        
+        </main>
+        <footer>
+
+        </footer>
+
+        
+    </body>
+</html>

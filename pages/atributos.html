@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es-GT">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Introducción a Desarrollo Web</title>
+        <link rel="icon"  type="image/png" href="../images/wave.png">
+    </head>
+    <body>
+        <style>
+            .page{
+                display: table;
+                width: 100%;               
+            }
+            .container{
+                padding-left: 5em;
+                padding-right: 8em;
+            }
+            .subcontainer {
+                padding: 10px;
+                border: solid grey;
+                border-radius: 1px;
+                float: left;
+                width: 75.5%;
+                margin-top: 10px;
+                
+            }
+            aside{
+                padding: 10px;
+                border: solid grey;
+                border-radius: 1px;
+                float: right;
+                width: 20%;
+                margin-top: -9px;
+                height:100vh;
+            }
+            p{
+                text-align: justify;
+            }
+            .imglogo{
+                margin: 1em;
+                height: 50px;
+                width: 50px;
+            }
+            h1,h2{
+                text-align: center;
+            }
+            li{
+                float: left;
+                list-style: none;
+
+            }
+            a:link, a:visited, a:active {
+                text-decoration: none;
+                color: black;
+                padding: 30px;
+            }
+            nav{
+                height: 60px;
+                border: solid grey;
+                margin-bottom: 7px;
+            }
+            article{
+                border: solid grey;
+                padding-right: 20px;
+                padding-left: 20px;
+                margin-bottom: 20px;
+            }
+            .standard-table{
+                border: solid gray;
+            }
+            th{
+                background-color: lightcyan;
+            }
+            td{
+                background-color: gainsboro;
+            }
+            thead{
+                border: solid gray;
+            }
+            .container{
+                margin-top: 10px;
+            }
+
+        </style>
+
+        <header>
+            <div class="header">
+                <img src="../images/wave.png" alt="logo" class="imglogo">
+                <h1>Desarrollo Web</h1>
+                <h2>Introducción a HTML 5</h2>
+                <br>
+                <nav>
+                    <ul>
+                        <li><a href="../index.html">Inicio</a></li>
+                        <li><a href="elementos.html">Elementos</a></li>
+                        <li><a href="atributos.html">Atributos</a></li>
+
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <div class="page">
+                <div class="container">
+                    
+                    <table class="standard-table">
+                        <thead>
+                         <tr>
+                          <th>Nombre del Atributo</th>
+                          <th>Elementos</th>
+                          <th>Descripción</th>
+                         </tr>
+                        </thead>
+                        <tbody>
+                         <tr>
+                          <td><code>accept</code></td>
+                          <td><p title="El elemento HTML form (<form>) representa una sección de un documento que contiene controles interactivos que permiten a un usuario enviar información a un servidor web."><code>&lt;form&gt;</code></p>, <p  title="El elemento HTML&nbsp;<input>&nbsp;se usa&nbsp;para crear controles interactivos para formularios basados en la web, que reciban datos del usuario. La forma en que <input> funciona varía considerablemente dependiendo del valor de su atributo type."><code>&lt;input&gt;</code></p></td>
+                          <td>Lista de tipos aceptados por el servidor, usualmente un tipo de archivo.</td>
+                         </tr>
+                         <tr>
+                          <td><code>accept-charset</code></td>
+                          <td><p title="El elemento HTML form (<form>) representa una sección de un documento que contiene controles interactivos que permiten a un usuario enviar información a un servidor web."><code>&lt;form&gt;</code></p></td>
+                          <td>Lista de juegos de caracteres soportados.</td>
+                         </tr>
+                         <tr>
+                          <td><code>accesskey</code></td>
+                          <td><p title="/es/docs/Web/HTML/Atributos_Globales">Atributos Globales</p></td>
+                          <td>Define una tecla que activa o agrega un foco al elemento.</td>
+                         </tr>
+                         <tr>
+                          <td><code>action</code></td>
+                          <td><p title="El elemento HTML form (<form>) representa una sección de un documento que contiene controles interactivos que permiten a un usuario enviar información a un servidor web."><code>&lt;form&gt;</code></p></td>
+                          <td>La URL del programa que procesa la información enviada en el formulario.</td>
+                         </tr>
+                         <tr>
+                          <td><code>alt</code></td>
+                          <td><p title="Permite añadir un applet Java en un documento HTML. Es un elemento Desaprobado En su lugar debe usarse el elemento object, su uso solo es válido declarando el dtd transicional."><code>&lt;applet&gt;</code></p>, <p  title="area de area=área"><code>&lt;area&gt;</code></p>, <p  title="<img>"><code>&lt;img&gt;</code></p>, <p  title="El elemento HTML&nbsp;<input>&nbsp;se usa&nbsp;para crear controles interactivos para formularios basados en la web, que reciban datos del usuario. La forma en que <input> funciona varía considerablemente dependiendo del valor de su atributo type."><code>&lt;input&gt;</code></p></td>
+                          <td>Texto alternativo en caso de que la imagen no se pueda mostrar.</td>
+                         </tr>
+                         <tr>
+                          <td><code>async</code></td>
+                          <td><p title="El elemento HTML Script (<script>) se utiliza para insertar o hacer referencia a un script ejecutable dentro de un documento HTML o XHTML."><code>&lt;script&gt;</code></p></td>
+                          <td>Indica que el script debería ejecutarse asincrónicamente.</td>
+                         </tr>
+                         <tr>
+                          <td><code>autocomplete</code></td>
+                          <td><p title="El elemento HTML form (<form>) representa una sección de un documento que contiene controles interactivos que permiten a un usuario enviar información a un servidor web."><code>&lt;form&gt;</code></p>, <p  title="El elemento HTML&nbsp;<input>&nbsp;se usa&nbsp;para crear controles interactivos para formularios basados en la web, que reciban datos del usuario. La forma en que <input> funciona varía considerablemente dependiendo del valor de su atributo type."><code>&lt;input&gt;</code></p></td>
+                          <td>Indica si los controles en este formulario pueden tener por defecto sus valores completados automáticamente por el navegador.</td>
+                         </tr>
+                         <tr>
+                          <td><code>autofocus</code></td>
+                          <td><p title="La etiqueta de HTML <button> representa un elemento cliqueable de tipo botón que puede ser utilizado en formularios o en cualquier parte de la página que necesite un botón estándar y simple de aplicar."><code>&lt;button&gt;</code></p>, <p  title="El elemento HTML&nbsp;<input>&nbsp;se usa&nbsp;para crear controles interactivos para formularios basados en la web, que reciban datos del usuario. La forma en que <input> funciona varía considerablemente dependiendo del valor de su atributo type."><code>&lt;input&gt;</code></p>, <p  title="El elemento keygen de HTML existe para facilitar la generación de llaves, y el envío de la clave pública como parte de un formulario HTML. Este mecanismo está diseñado para utilizarse con sistemas de gestión de certificados basados en la Web. Se espera que el elemento keygen se utilice en un formulario HTML, junto con otra información necesaria para la construcción de una solicitud de certificado, y que el resultado del proceso será un certificado firmado."><code>&lt;keygen&gt;</code></p>, <p  title="El elemento select&nbsp;(<select>) de HTML representa un control que muestra un menú de opciones. Las opciones contenidas en el menú son representadas por elementos&nbsp;<option>, los cuales pueden ser agrupados por elementos&nbsp;<optgroup>. La opcion puede estar preseleccionada por el usuario."><code>&lt;select&gt;</code></p>, <p  title="El elemento HTML <textarea> representa un control para edición muti-línea de texto plano."><code>&lt;textarea&gt;</code></p></td>
+                          <td>El elemento debería recibir foco automáticamente después de haberse cargado la página.</td>
+                         </tr>
+                         <tr>
+                          <td><code>autoplay</code></td>
+                          <td><p title="El elemento audio se usa para insertar contenido de audio en un documento HTML o XHTML. El elemento audio se agregó como parte de HTML 5."><code>&lt;audio&gt;</code></p>, <p  title="El elemento video se utiliza para incrustar vídeos en un documento HTML o XHTML."><code>&lt;video&gt;</code></p></td>
+                          <td>El audio o video debería empezar lo antes posible.</td>
+                         </tr>
+                         <tr>
+                          <td><code>autosave</code></td>
+                          <td><p title="El elemento HTML&nbsp;<input>&nbsp;se usa&nbsp;para crear controles interactivos para formularios basados en la web, que reciban datos del usuario. La forma en que <input> funciona varía considerablemente dependiendo del valor de su atributo type."><code>&lt;input&gt;</code></p></td>
+                          <td>Previous values should persist dropdowns of selectable values across page loads.</td>
+                         </tr>
+                         <tr>
+                          <td><code>border</code></td>
+                          <td><p title="<img>"><code>&lt;img&gt;</code></p>, <p rel="nofollow"  class="new" title="La documentación acerca de este tema no ha sido escrita todavía . ¡Por favor  considera contribuir !"><code>&lt;object&gt;</code></p>, <p  title="El Elemento de Tabla HTML (<table>) representa datos en dos o mas dimensiones."><code>&lt;table&gt;</code></p></td>
+                          <td>
+                           <p>El ancho del borde.</p>
+                       
+                           <div class="note">
+                           <p><strong>Nota:</strong> Este atributo se mantiene como referencia. Por favor usa la propiedad CSS <p  title="La documentación acerca de este tema no ha sido escrita todavía . ¡Por favor  considera contribuir !"><code>border</code></p> en su lugar.</p>
+                           </div>
+                          </td>
+                         </tr>
+                         <tr>
+                          <td><code>buffered</code></td>
+                          <td><p title="El elemento audio se usa para insertar contenido de audio en un documento HTML o XHTML. El elemento audio se agregó como parte de HTML 5."><code>&lt;audio&gt;</code></p>, <p title="El elemento video se utiliza para incrustar vídeos en un documento HTML o XHTML."><code>&lt;video&gt;</code></p></td>
+                          <td>Contiene un rango de tiempo multimedia almacenado.</td>
+                         </tr>
+                         <tr>
+                          <td><code>challenge</code></td>
+                          <td><p title="El elemento keygen de HTML existe para facilitar la generación de llaves, y el envío de la clave pública como parte de un formulario HTML. Este mecanismo está diseñado para utilizarse con sistemas de gestión de certificados basados en la Web. Se espera que el elemento keygen se utilice en un formulario HTML, junto con otra información necesaria para la construcción de una solicitud de certificado, y que el resultado del proceso será un certificado firmado."><code>&lt;keygen&gt;</code></p></td>
+                          <td>Cadena de desafío que se envía junto con la clave pública.</td>
+                         </tr>
+                         <tr>
+                          <td><code>charset</code></td>
+                          <td><p title="meta de &quot;metainformation&quot; - metainformación. Sirve para aportar información sobre el documento.."><code>&lt;meta&gt;</code></p>, <p title="El elemento HTML Script (<script>) se utiliza para insertar o hacer referencia a un script ejecutable dentro de un documento HTML o XHTML."><code>&lt;script&gt;</code></p></td>
+                          <td>Declara la codificación de caracteres de la página o del script.</td>
+                         </tr>
+                         <tr>
+                          <td><code>checked</code></td>
+                          <td><p title="El elemento&nbsp;command&nbsp;representa un comando que el usuario puede invocar ."><code>&lt;command&gt;</code></p>, <p  title="El elemento HTML&nbsp;<input>&nbsp;se usa&nbsp;para crear controles interactivos para formularios basados en la web, que reciban datos del usuario. La forma en que <input> funciona varía considerablemente dependiendo del valor de su atributo type."><code>&lt;input&gt;</code></p></td>
+                          <td>Indica que el elemento debería estar marcado al cargar la página.</td>
+                         </tr>
+                         <tr>
+                          <td><code>cite</code></td>
+                          <td><p title="blockquote -cita en bloque . Crea citas en bloque, marca las citas a otros autores o documentos."><code>&lt;blockquote&gt;</code></p>, <p  title="La documentación acerca de este tema no ha sido escrita todavía . ¡Por favor  considera contribuir !"><code>&lt;del&gt;</code></p>, <p  title="La documentación acerca de este tema no ha sido escrita todavía . ¡Por favor  considera contribuir !"><code>&lt;ins&gt;</code></p>, <p  title="El elemento q (cita) crea citas en linea, marca las citas a otros autores o documentos."><code>&lt;q&gt;</code></p></td>
+                          <td>Contiene una URL que apunta a la fuente de la cita o cambio.</td>
+                         </tr>
+                         <tr>
+                          <td><code>class</code></td>
+                          <td><p title="/es/docs/Web/HTML/Atributos globales">Atributo Global</p></td>
+                          <td>Usualmente empleado con CSS para aplicar estilos a elementos con propiedades en comun.</td>
+                         </tr>
+                        </tbody>
+                       </table>
+
+                </div>
+                
+            </div>
+        
+        </main>
+        <footer>
+
+        </footer>
+
+        
+    </body>
+</html>
