@@ -1,0 +1,78 @@
+.page{
+    display: table;
+    width: 100%;   
+             
+}
+.container{
+    padding-left: 5em;
+    padding-right: 8em;
+}
+.subcontainer {
+    padding: 10px;
+    border: solid grey;
+    border-radius: 1px;
+    float: left;
+    width: 75.5%;
+    margin-top: 10px;
+    
+}
+aside{
+    padding: 10px;
+    border: solid grey;
+    border-radius: 1px;
+    float: right;
+    width: 20%;
+    margin-top: -9px;
+    height:100vh;
+}
+p{
+    text-align: justify;
+}
+.imglogo{
+    margin: 1em;
+    height: 50px;
+    width: 50px;
+}
+h1,h2{
+    text-align: center;
+}
+li{
+    float: left;
+    list-style: none;
+
+}
+a:link, a:visited, a:active {
+    text-decoration: none;
+    color: black;
+    padding: 30px;
+}
+nav{
+    height: 60px;
+    border: solid grey;
+    margin-bottom: 7px;
+}
+article{
+    border: solid grey;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+.standard-table{
+    border: solid gray;
+    margin-bottom: 30px;   
+}
+th{
+    background-color: lightcyan;
+}
+td{
+    background-color: gainsboro;
+}
+thead{
+    border: solid gray;
+}
+.container{
+    margin-top: 10px;
+}
+.pie{
+    text-align: center;
+}

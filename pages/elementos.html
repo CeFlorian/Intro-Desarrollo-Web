@@ -8,9 +8,19 @@
     </head>
     <body>
         <style>
+
+            a:hover {
+                background-color: red;
+                color: white;
+ 
+            }
+
             .page{
                 display: table;
-                width: 100%;               
+                width: 100%;     
+                background: linear-gradient(to bottom, cyan 30%, crimson 40%); 
+                padding-bottom: 0px;
+                       
             }
             .container{
                 padding-left: 5em;
@@ -48,17 +58,21 @@
             li{
                 float: left;
                 list-style: none;
-
+                padding: 0px;
             }
             a:link, a:visited, a:active {
                 text-decoration: none;
                 color: black;
-                padding: 30px;
+                padding: 25px;
+                padding-bottom: 29px;
+                padding-top: 20px;
             }
             nav{
                 height: 60px;
                 border: solid grey;
-                margin-bottom: 7px;
+                padding: 0px;
+                
+                background-color: darkcyan;
             }
             article{
                 border: solid grey;
@@ -68,6 +82,7 @@
             }
             .standard-table{
                 border: solid gray;
+                margin-top: 30px;   
                 margin-bottom: 30px;   
             }
             th{
@@ -79,11 +94,18 @@
             thead{
                 border: solid gray;
             }
-            .container{
-                margin-top: 10px;
-            }
             .pie{
                 text-align: center;
+            }
+            .header{
+                background-color: crimson;
+                padding: opx;
+            }
+            footer{
+                margin-top: -15px;
+                padding-top: 20px;
+                background-color: darkcyan;
+                border: 1px solid grey;
             }
 
         </style>
@@ -99,6 +121,7 @@
                         <li><a href="../index.html">Inicio</a></li>
                         <li><a href="elementos.html">Elementos</a></li>
                         <li><a href="atributos.html">Atributos</a></li>
+                        <li><a href="tablas.html">Tablas</a></li>
 
                     </ul>
                 </nav>
@@ -314,7 +337,7 @@
             </div>
         
         </main>
-        <hr>
+
         <footer>
             <p class="pie">Desarrollo Web</p>
             <p class="pie">Guatemala 2020</p>

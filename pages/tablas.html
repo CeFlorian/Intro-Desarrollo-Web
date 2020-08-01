@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es-GT">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Introducción a Desarrollo Web</title>
+        <link rel="icon"  type="image/png" href="../images/wave.png">
+    </head>
+    <body>
+        <style>
+            a:hover {
+                background-color: red;
+                color: white;
+ 
+            }
+
+            .page{
+                display: table;
+                width: 100%;     
+                background: linear-gradient(to bottom, cyan 30%, crimson 40%); 
+                padding-bottom: 0px;
+                       
+            }
+            .container{
+                padding-left: 20em;
+                padding-bottom: 50em;
+            }
+            .subcontainer {
+                padding: 10px;
+                border: solid grey;
+                border-radius: 1px;
+                float: left;
+                width: 75.5%;
+                margin-top: 10px;
+                
+            }
+            aside{
+                padding: 10px;
+                border: solid grey;
+                border-radius: 1px;
+                float: right;
+                width: 20%;
+                margin-top: -9px;
+                height:100vh;
+            }
+            p{
+                text-align: justify;
+            }
+            .imglogo{
+                margin: 1em;
+                height: 50px;
+                width: 50px;
+            }
+            h1,h2{
+                text-align: center;
+            }
+            li{
+                float: left;
+                list-style: none;
+                padding: 0px;
+            }
+            a:link, a:visited, a:active {
+                text-decoration: none;
+                color: black;
+                padding: 25px;
+                padding-bottom: 29px;
+                padding-top: 20px;
+            }
+            nav{
+                height: 60px;
+                border: solid grey;
+                padding: 0px;
+                
+                background-color: darkcyan;
+            }
+            article{
+                border: solid grey;
+                padding-right: 20px;
+                padding-left: 20px;
+                margin-bottom: 20px;
+            }
+            .standard-table{
+                border: solid gray;
+                margin-top: 30px;   
+                margin-bottom: 30px;   
+            }
+            th{
+                background-color: lightcyan;
+            }
+            td{
+                background-color: gainsboro;
+            }
+            thead{
+                border: solid gray;
+            }
+            .pie{
+                text-align: center;
+            }
+            .header{
+                background-color: crimson;
+                padding: opx;
+            }
+            footer{
+                margin-top: -18px;
+                padding-top: 20px;
+                background-color: darkcyan;
+                border: 1px solid grey;
+            }
+
+        </style>
+
+        <header>
+            <div class="header">
+                <img src="../images/wave.png" alt="logo" class="imglogo">
+                <h1>Desarrollo Web</h1>
+                <h2>Introducción a HTML 5</h2>
+                <br>
+                <nav>
+                    <ul>
+                        <li><a href="../index.html">Inicio</a></li>
+                        <li><a href="elementos.html">Elementos</a></li>
+                        <li><a href="atributos.html">Atributos</a></li>
+                        <li><a href="tablas.html">Tablas</a></li>
+
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <div class="page">
+                <div class="container">
+                    
+                    <table class="standard-table">
+                        <thead>
+                            <tr>
+                                <th>Propiedad</th>
+                                <th>Descripción</th>
+                                <th>Valores</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <code><b>caption-side</b></code>
+                                </td>
+                                <td>Posición del título respecto la tabla</td>
+                                <td>top | bottom</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <code><b>table-layout</b></code>
+                                </td>
+                                <td>Formato de las celdas, filas y columnas</td>
+                                <td>auto | fixed</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <code><b>border-collapse</b></code>
+                                </td>
+                                <td>Selección del modelo de los bordes</td>
+                                <td>collapse | separate</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <code><b>border-spacing</b></code>
+                                </td>
+                                <td>Espaciado entre los bordes de celdas adyacentes</td>
+                                <td>longitud</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <code><b>empty-cells</b></code>
+                                </td>
+                                <td>Visibilidad de los bordes de celdas sin contenido</td>
+                                <td>show | hide</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+                
+            </div>
+        
+        </main>
+        <hr>
+        <footer>
+            <p class="pie">Desarrollo Web</p>
+            <p class="pie">Guatemala 2020</p>
+            <br>
+        </footer>
+
+        
+    </body>
+</html>
+
