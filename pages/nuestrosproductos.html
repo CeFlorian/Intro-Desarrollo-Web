@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es-GT">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Pastelería CIRO</title>
+    <link rel="icon"  type="image/png" href="../images/logo.png">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    
+    <div class="contenido-grid">
+        <header class="header-grid">
+
+            <div class="barraNav">
+                <div class="logo-ciro">
+                    <a href="../index.html"><img src="../images/logo.png" id="logotipo" alt="logotipo" ></a>
+                </div>
+                
+                <nav class="nav-cls contenedor">
+                    <ul style="margin-bottom: 0px;">
+                        <li>
+                            <a href="../index.html" target="_blank">Inicio</a>
+                        </li>
+                        <li>
+                            <a href="catalogo.html">Catálogo</a>
+                        </li>
+                        <li>
+                            <a href="pedido.html">Pedidos</a>
+                        </li>
+                        <li>
+                            <a href="nuestrosproductos.html">Productos</a>
+                        </li>
+                        <li>
+                            <a href="loMasVendido.html" target="_blank">Lo más vendido</a>
+                        </li>
+                        <li>
+                            <a href="login.html" target="_blank">Login</a>
+                        </li>
+                    </ul>
+                </nav>
+
+            </div>
+
+        </header>
+
+        <aside class="grid-aside">
+
+            <img src="../images/logo.png" id="imgMenu" alt="ImagenMenu">
+
+            <h2>Nuestro Menu</h2>
+            <article class="main-table">
+                <table >
+                    <thead>
+                        <tr>
+                            <th>No.</th>
+                            <th>Nombre</th>
+                            <th>Precio</th>
+                        </tr>
+                    </thead>
+
+                    <tr>
+                        <td>1</td>
+                        <td>Pastel pequeño</td>
+                        <td>Q.50.00</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Pastel mediano</td>
+                        <td>Q.75.00</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Pastel grande</td>
+                        <td>Q.100.00</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Pastel extra-grande</td>
+                        <td>Q.150.00</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Pastel especial</td>
+                        <td>Q.150.00</td>
+                    </tr>
+
+                </table>
+            </article>
+
+        </aside>
+
+        <main class="main-grid div-main">
+            <h2 class="centrar-texto">Catalogo de Productos</h2>
+                <br>
+                <br>
+                <section>
+                    
+                    <article class="contenedor-productos">
+
+                        <div class="row">
+                            <table class="table table-bordered" style="table-layout: fixed;">
+                                <thead style="background-color: black; color: white;"> 
+                                    <tr>
+                                        <th>Código</th>
+                                        <th>Descripción</th>
+                                        <th>Precio</th>
+                                        <th>Imagen</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="tbCatalogo">
+                                    <tr>
+                                        <td><p>001</p></td>
+                                        <td><p>Amaretto</p><br><p>Bizcocho de vainilla y chocolate relleno de mousse de chocolate.</p><br><br><br><br><br>
+                                            <p>Cantidad: <u>__1___</u></p>
+                                        </td>
+                                        <td><p>Q. 175.00</p><br><br><br><br><br><br><br><br><br>
+                                            <button class="btn btn-success">Agregar al carrito</button>
+                                        </td>
+                                        <td><img src="../images/amaretto.jpg" alt="imagen amaretto"></td>
+                                    </tr>
+                                    <tr>
+                                        <td><p>002</p></td>
+                                        <td><p>Brazo de chocolate</p><br><p>Brazo gitano de chocolate bañado y relleno de crema de chocolate.</p><br><br><br><br><br>
+                                            <p>Cantidad: <u>__2___</u></p>
+                                        </td>
+                                        <td><p>Q. 150.00</p><br><br><br><br><br><br><br><br><br>
+                                            <button class="btn btn-success">Agregar al carrito</button>
+                                        </td>
+                                        <td><img src="../images/brazo_chocolate.jpg" alt="imagen brazo_chocolate"></td>
+                                    </tr>
+                                    <tr>
+                                        <td><p>003</p></td>
+                                        <td><p>Cassatta</p><br><p>Una capa de helado de vainilla, una de fresa y otra de chocolate.</p><br><br><br><br><br> 
+                                            <p>Cantidad: <u>__1___</u></p>
+                                        </td>
+                                        <td><p>Q. 175.00</p><br><br><br><br><br><br><br><br><br>
+                                            <button class="btn btn-success">Agregar al carrito</button>
+                                        </td>
+                                        <td><img src="../images/cassatta.jpg" alt="imagen cassatta"></td>
+                                    </tr>
+                                </tbody>
+                
+                            </table>
+                        </div>
+
+                    </article>
+                    
+                </section>
+        </main>
+        <footer class="footer-grid">
+            <div class="contenedor cont-footer">
+                <p>Santa Rosa, Guatemala</p>
+                <p class="copyright">&copy; 2020 Pastelería CIRO - Todos los derechos reservados</p>
+                <p>Contactenos via: <a href="#">e-mail</a></p>
+            </div>
+        </footer>
+    </div>
+
+
+    <script src="../js/script.js"></script>
+</body>
+
+</html>

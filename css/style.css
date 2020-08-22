@@ -1,0 +1,542 @@
+/* selector Universal */
+* {
+    font-family: "Calibri";
+    margin: 0px;
+    text-align: justify;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+} 
+/* selector tipo Elemento */
+body {
+    font-size: 1.6rem;
+    line-height: 2;
+}
+ /* selector tipo Clase */
+.contenedor {
+    width: 99%;
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.div-main {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.div-login {
+
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    width: 550px;
+    
+}
+
+.div-main p{
+    line-height: 19px;
+}
+
+.font-txt {
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.centrar-texto {
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.contenido-centrado {
+    max-width: 100%;
+}
+
+.logo-cls{
+    padding: 2rem 0;
+}
+
+img {
+    max-width: 100%;
+}
+/* selector tipo ID */
+#logotipo{
+    height: 40px;
+    width: 100px;
+}
+
+.header-grid {
+    grid-column: 1 / span 2;
+}
+
+ 
+.barraNav{
+    background-color: black;
+    padding-right: 0px;
+}
+
+.barra-Login{
+    background-color: black;
+    padding-right: 10%;
+}
+
+.nav-cls a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 1.5rem;  
+    
+} 
+
+
+.nav-cls a:hover{
+    background-color: khaki;
+    padding: 1.5rem;
+    text-decoration: none;
+    color: white;
+} 
+
+.barra-Login .nav-cls {
+    padding-right: 0px; 
+    width: 500px;
+ } 
+
+.barra-Login .logo-ciro {
+    padding-right: 0px; 
+    width: 200px;
+ } 
+
+#imgMenu{
+    padding: 28%;
+    padding-bottom: 0px;
+    padding-top: 10%;
+}
+
+.grid-aside {
+    background-color: lightgray;
+    grid-column: 1;
+    grid-row: 2;
+    margin: .0rem;
+    padding: 1.5rem; 
+}
+.grid-aside h2{
+    text-align: center;
+    padding: 1rem; 
+}
+
+.main-table{
+    padding: 1rem 5% 1rem 5%;
+    width: 95%;
+}
+
+table{  
+    background-color: white;
+    padding: 0;
+    text-align: left;
+    width: 100%;
+
+}
+
+.d-block {
+    display: block!important;
+}
+
+.nav-cls {
+   padding-right: 0px; 
+   padding-left: 5%; 
+} 
+
+.nav-cls {
+    padding-right: 0px; 
+    padding-left: 15%; 
+ } 
+
+
+th, td{
+    padding: 20px;
+    padding-right: 0px;
+}
+
+thead{
+    background-color: darksalmon;
+    border-bottom: solid 5px #0f362d;
+    color: white;
+}
+
+.row{
+    margin-bottom: 10px;
+}
+
+tr:nth-child(even){
+    background-color: khaki;
+}
+
+tr:hover td{
+    background-color: salmon;
+    color: white;
+}
+
+
+.title-txt{
+    color: firebrick;
+}
+
+#imgPresent{
+    border-radius: 3%;
+}
+
+.main-grid {
+    background-image: url('../images/pattern.png');
+    grid-column: 2;
+    grid-row: 2;
+    margin: .0rem;
+    padding: 2.5rem;
+}
+
+.main-grid-complet {
+    background-image: url('../images/pattern.png');
+    grid-column: 1;
+    grid-row: 2;
+    margin: .0rem;
+    padding: 2.5rem;
+    padding-right: 15em;
+    padding-left: 15em;
+}
+
+.articulo img{
+    display: block;
+    margin: auto;
+    width: 98%;
+    padding: 2rem 0 0 0;
+}
+
+.articulo h2{
+    padding: 2rem 0 .5rem 0;
+}
+
+.articulo p{
+    line-height: 19px;
+}
+
+.boton{
+    background-color: khaki;
+    color: black;
+    font-size: 20px;
+    padding: .2rem;
+    padding-bottom: 0px;
+    text-decoration: none;  
+    text-align: center;
+    width: 100%;
+}
+
+.articulo{
+    padding-bottom: 50px;
+}
+
+.boton:hover{
+    background-color: burlywood;
+    color: white;
+}
+
+
+.producto {
+    border: 1px solid #b5b5b5;
+    background-color: #f5f5f5;
+    margin-bottom: 2em;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-bottom: 0px;
+    padding-bottom: 1em;
+}
+
+.producto img{
+    width: 100%;
+    height: 50%;
+    margin-top: 1em;
+}
+    
+.contenido-producto {
+    padding: 1rem;
+}
+    
+.contenido-producto h3{
+    margin: 0;
+}
+    
+.contenido-producto p {
+    margin: 0;
+    line-height: 19px;
+    padding-bottom: 10px;
+}
+    
+.precio {
+    color: firebrick;
+    font-weight: 700;
+    padding-bottom: 1rem;
+}
+    
+.valoresList-contenedor{
+    padding-left: 2em;
+}
+    
+
+.footer-grid {
+    background-color: black;
+    color: white;
+    grid-column: 1 / span 2;
+    margin: 0;
+    padding: 2rem;
+}
+
+.footer-grid p{
+   text-align: center;
+   padding: 0;
+   margin: 0;
+   line-height:1;
+}
+
+.cont-footer a{
+    text-decoration: none;
+    color: gainsboro;
+}
+
+label {
+   margin-top: -10px;
+   padding-left: 1rem;
+   color: white;
+}
+
+fieldset{
+    background-color:rgb(3, 2, 66);
+
+}
+
+input {
+    padding: 0.5rem;
+    display: block;
+    width: 100%;
+    background-color: #e1e1e1;
+    border-radius: .8rem; 
+    margin: auto;
+    margin-bottom: 1rem;
+    
+} 
+
+button, .botonesform {
+    padding: 1rem;
+    display: block;
+    width: 10%;
+    /*margin: auto;*/
+    margin-bottom: 1rem;
+    
+} 
+
+table button {
+    padding: 1rem;
+    display: block;
+    width: 100%;
+    /*margin: auto;*/
+    margin-bottom: 1rem;
+    
+} 
+
+#imgProducto{
+
+    width: 15%;
+
+}
+
+fieldset p {
+    text-align: center;
+    color: white;
+}
+
+.div-grid {
+    display: grid;
+    grid-template-columns: 40px 300px;
+    grid-template-rows: 20px;
+
+}
+
+.checkRecordar{
+    padding-left: 70%;
+    padding-bottom: 0px;
+    
+}
+
+#lbRecordarUsuario{
+    padding-bottom: 10px;
+}
+
+.grid-registrar {
+    padding-left: 15%;
+    display: grid;
+    grid-template-columns: 200px 250px;
+    grid-template-rows: 30px;
+
+}
+
+.texto-med{
+    font-size: 17px;
+}
+
+form label{
+    font-size: 19px;
+    height: 30px;
+    color: black;
+
+}
+
+form input{
+    min-width: 20px;
+}
+
+#fileImage{
+    border: 1px solid black;
+    height: 100px;
+}
+
+.no-decorate{
+    text-decoration: none;
+    color: royalblue;
+}
+
+.botonLogin{
+    background-color: skyblue;
+    color: white;
+    font-size: 20px;
+    padding: .2rem;
+    text-decoration: none;  
+    text-align: center;
+    width: 100px;
+    margin-left: 40%;
+    margin-top: 20px;
+}
+
+.botonPedido{
+    background-color: khaki;
+    color: black;
+    font-size: 20px;
+    padding: .1rem;
+    text-decoration: none;  
+    text-align: center;
+    width: 40px;
+    border-radius: 15px;
+}
+
+.botonPedido:hover{
+    background-color: burlywood;
+    text-decoration: none;  
+    color: white;
+}
+
+div .contador{
+    margin-top: 6px;
+    margin-right: 3px;
+    margin-left: 3px;
+    font-size: 13px;
+}
+
+.botonForm{
+    background-color: green;
+    color: white;
+    font-size: 20px;
+    padding-left: 0px;
+    padding: .2rem;
+    text-decoration: none;  
+    text-align: center;
+    width: 150px;
+}
+
+.fondoLogin{
+    background-image: url('../images/pattern.png');
+}
+
+.nav-cls .no-hover:hover{
+    background-color: black;
+    padding: 1.5rem;
+} 
+
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+} 
+
+.montos{
+    margin-left: 15px;
+}
+
+
+/*Media queries aplicado aplicados los grid utilizados, en la barra de navegacion, en los productos dentro de los arcticulos y los elementos donde se utilizo flex */
+@media screen and (min-width:700px){
+    .contenido-grid {
+        display: grid;
+        grid-template-columns: 2fr 4fr ;
+        grid-gap: .1rem;
+    }
+
+    .contenido-grid-complete {
+        display: grid;
+        grid-template-columns: 4fr ;
+        grid-gap: .1rem;
+    }
+
+    .barraNav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+     .barraNav .logo-ciro{
+        padding-left: 3rem;
+        padding-right: 30rem;
+       
+    } 
+
+   .nav-cls li{
+        display: inline-block;
+    }
+
+    fieldset{
+        background-color:rgb(3, 2, 66);
+        width: 100%;
+        margin: auto;
+    
+    }
+
+    fieldset p{
+        color: white;
+        font-size: 2rem;    
+    }
+
+    .seccion-productos {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .producto{
+        height: 500px;
+        flex: 0 0 calc(100% - 1rem);
+    }
+
+    .contenedor-productos {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding-bottom: 0px;
+    }
+
+    .contenedor-catalogo {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding-bottom: 0px;
+    }
+
+
+}
